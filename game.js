@@ -174,10 +174,10 @@ function drawEverything() {
 
 
   // left player paddle
-  colorRect(0, paddle1Y, paddleThickness, paddleHeight, 'yellow');
+  colorRect(0, paddle1Y, paddleThickness, paddleHeight, 'green');
 
    // right player paddle
-  colorRect(canvas.width - paddleThickness, paddle2Y, paddleThickness, paddleHeight, 'yellow');
+  colorRect(canvas.width - paddleThickness, paddle2Y, paddleThickness, paddleHeight, 'red');
 
   // draws the ball
   colorCircle(ballX, ballY, 10, "white");
